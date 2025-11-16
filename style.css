@@ -1,0 +1,147 @@
+/* Estilos para a janela principal */
+.techstore-main-window {
+background-color: #1a1a1a;
+}
+
+/* Estilos para a barra de cabeçalho */
+GtkHeaderBar {
+background-color: #212121;
+border-bottom-width: 0;
+border-bottom-style: none;
+border-radius: 0;
+}
+
+GtkHeaderBar label {
+color: #ffffff;
+}
+
+GtkHeaderBar .title {
+font-weight: bold;
+}
+
+/* Estilos para a Gtk.StackSidebar (barra lateral) */
+GtkStackSidebar {
+background-color: #212121;
+border-right-width: 1px;
+border-right-style: solid;
+border-right-color: #333333;
+}
+
+GtkStackSidebar GtkLabel {
+color: #b0b0b0;
+font-weight: bold;
+}
+
+GtkStackSidebar GtkStackSwitcher {
+background-color: transparent;
+}
+
+GtkStackSidebar GtkStackSwitcher button {
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 0;
+box-shadow: none;
+}
+
+GtkStackSidebar GtkStackSwitcher button:hover {
+background-color: #2b2b2b;
+}
+
+GtkStackSidebar GtkStackSwitcher button:checked {
+color: #ffffff;
+background-color: #2b2b2b;
+}
+
+/* Estilos gerais para botões */
+GtkButton {
+background-color: #383838;
+border-color: #454545;
+border-radius: 8px;
+color: #e0e0e0;
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+transition: all 0.2s;
+}
+
+GtkButton:hover {
+background-color: #454545;
+}
+
+GtkButton:active {
+background-color: #2b2b2b;
+box-shadow: none;
+}
+
+/* Estilo para o botão de ação principal (Instalar) */
+GtkButton.suggested-action {
+background-color: #9c00cc;
+border-color: #6e0099;
+}
+
+GtkButton.suggested-action:hover {
+background-color: #a500e6;
+}
+
+GtkButton.suggested-action:active {
+background-color: #8000b3;
+}
+
+/* Estilos para os cards de aplicativo */
+.app-card {
+background-color: #262626;
+border-radius: 12px;
+padding: 15px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.app-card:hover {
+background-color: #2b2b2b;
+}
+
+/* Estilos para a barra de busca */
+GtkSearchEntry {
+background-color: #333333;
+border-color: #555555;
+color: #ffffff;
+caret-color: #ffffff;
+}
+
+GtkSearchEntry GtkImage {
+color: #b0b0b0;
+}
+
+/* Estilos para a barra de status */
+GtkStatusbar {
+background-color: #212121;
+border-top-width: 1px;
+border-top-style: solid;
+border-top-color: #333333;
+color: #b0b0b0;
+}
+
+/* Estilos para a aba de atualizações */
+GtkLabel.no-results-label {
+color: #b0b0b0;
+font-style: italic;
+font-size: 1.2em;
+}
+
+GtkListBoxRow:hover {
+background-color: #2b2b2b;
+}
+
+GtkListBoxRow:selected {
+background-color: #5f00cc;
+color: #ffffff;
+}
+
+/* Estilos para o spinner de carregamento */
+GtkSpinner {
+color: #a300cc;
+}
+
+/* Estilos de fonte */
+label,
+button,
+entry {
+font-family: "Sans-serif";
+}
